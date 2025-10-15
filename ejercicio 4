@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Noticia Viral </title>
+</head>
+<style> 
+    body {
+        background: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        }
+
+    .noticia {
+        background: #f5f5f5;
+        text-align: left;
+    }
+    .noticia strong {
+        color: #d32f2f;
+    }
+    .noticia p {
+        color: #222;
+        line-height: 1.5;
+    }
+    .noticia .cita {
+        font-weight: bold;
+        color: #1976d2;
+    }
+
+</style>
+<body>
+    <div class= "noticia" >
+        <strong> Se volvió viral. </strong>
+        <p> Un hincha chileno estalló de furia tras la derrota ante la selección: </p>
+        <p class="cita">"¡A última hora no!"</p>
+    </div>
+</body>
+</html>
